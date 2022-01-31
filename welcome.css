@@ -1,0 +1,82 @@
+
+.welcome {
+  margin-top: 15vh;
+  min-height: 85vh;
+}
+
+main {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.greeting {
+  color: var(--secondary-color);
+  margin-top: 30px;
+  margin-bottom: 7px;
+}
+
+main h1 {
+  color: var(--secondary-color);
+  background-color: transparent;
+  opacity: 1;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: Cocogoose, Arial, Helvetica, sans-serif;
+}
+
+.main-text {
+  display: flex;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+   background-color: var(--secondary-gray);
+  background-image: url("./assets/justQueen.png");
+  background-size: 80%;
+}
+
+.intro-text {
+  background-color: var(--secondary-gray);
+  color: var(--primary-color);
+  padding: 10px;
+  margin: 0 auto;
+  border: 2px solid white;
+}
+
+footer {
+  color: var(--primary-color);
+  border: 30px, 50px;
+  width: 90%;
+  margin: 10px auto;
+  align-self: flex-end;
+}
+
+footer h2 {
+  color: var(--primary-color);
+  font-weight: 900;
+  margin: 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (min-width:769px) {
+  
+  .welcome {
+    width: 100vw;
+    margin: 0 auto;
+    margin-top: 15vh;
+  }
+
+  .content {
+    width: 80vw;
+    margin: 0 auto;
+  }
+  
+}
