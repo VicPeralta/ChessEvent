@@ -37,12 +37,12 @@ header {
 
 .hidden {
   display: none;
-  z-index: 0;
+  z-index: -1;
 }
 
 .show {
   display: block;
-  z-index: 10;
+  z-index: 1;
 }
 
 .hamburger-button {

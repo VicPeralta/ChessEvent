@@ -2,12 +2,10 @@ function bodyScroll(allow) {
   const body = document.querySelector('body');
   if (allow) {
     body.style.overflowY = 'visible';
-    const pastEvents = document.querySelectorAll('.event-card');
-    pastEvents.forEach((card) => { card.style.position = 'relative'; });
+    document.querySelector('.past-events').display = 'flex';
   } else {
     body.style.overflowY = 'hidden';
-    const pastEvents = document.querySelectorAll('.event-card');
-    pastEvents.forEach((card) => { card.style.position = 'static'; });
+    document.querySelector('.past-events').display = 'none';
   }
 }
 
@@ -30,7 +28,7 @@ document.querySelector('.close-menu').addEventListener('click', () => {
 });
 
 document.addEventListener('click', (e) => {
-  if (e.target.matches('menu-options ul li a')) {
+  if (e.target.matches('.menu-options ul li a')) {
     closeMenu();
   }
 });
