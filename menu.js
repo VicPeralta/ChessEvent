@@ -9,6 +9,7 @@ function closeMenu() {
   menu.classList.add('hidden');
   menu.classList.remove('show');
 }
+
 document.querySelector('.close-menu').addEventListener('click', () => {
   closeMenu();
 });

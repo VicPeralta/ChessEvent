@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./speakers.css">
   <link rel="stylesheet" href="./welcome.css">
   <script src="./menu.js" defer></script>
+  <script src="./speakers.js" defer></script>
   <title>Capablanca's Memorial</title>
 </head>
 
@@ -112,60 +113,23 @@
     <h2>Featured Speakers</h2>
     <hr>
     <div class="speakers-container">
-      <div class="speaker-card">
-        <img src="./assets/bruzon.jfif" alt="">
-        <div class="info">
-          <h3 class="speaker">Lázaro Bruzón</h3>
-          <p class="title">Cuban GM</p>
-          <hr>
-          <p class="bio">GM Bruzón has been one of the strongest cuban chess players for more than a decade</p>
+      <template class="speaker-template">
+        <div class="speaker-card">
+          <div class="image">
+            <img src="" alt="">
+          </div>
+          <div class="info">
+            <h3 class="speaker"></h3>
+            <p class="title"></p>
+            <hr>
+            <p class="bio"></p>
+          </div>
         </div>
-      </div>
-      <div class="speaker-card">
-        <img src="./assets/bruzon.jfif" alt="">
-        <div class="info">
-          <h3 class="speaker">Lázaro Bruzón</h3>
-          <p class="title">Cuban GM</p>
-          <hr>
-          <p class="bio">GM Bruzón has been one of the strongest cuban chess players for more than a decade</p>
-        </div>
-      </div>
-      <div class="speaker-card">
-        <img src="./assets/bruzon.jfif" alt="">
-        <div class="info">
-          <h3 class="speaker">Lázaro Bruzón</h3>
-          <p class="title">Cuban GM</p>
-          <hr>
-          <p class="bio">GM Bruzón has been one of the strongest cuban chess players for more than a decade</p>
-        </div>
-      </div>
-      <div class="speaker-card">
-        <img src="./assets/bruzon.jfif" alt="">
-        <div class="info">
-          <h3 class="speaker">Lázaro Bruzón</h3>
-          <p class="title">Cuban GM</p>
-          <hr>
-          <p class="bio">GM Bruzón has been one of the strongest cuban chess players for more than a decade</p>
-        </div>
-      </div>
-      <div class="speaker-card">
-        <img src="./assets/bruzon.jfif" alt="">
-        <div class="info">
-          <h3 class="speaker">Lázaro Bruzón</h3>
-          <p class="title">Cuban GM</p>
-          <hr>
-          <p class="bio">GM Bruzón has been one of the strongest cuban chess players for more than a decade</p>
-        </div>
-      </div>
-      <div class="speaker-card">
-        <img src="./assets/bruzon.jfif" alt="">
-        <div class="info">
-          <h3 class="speaker">Lázaro Bruzón</h3>
-          <p class="title">Cuban GM</p>
-          <hr>
-          <p class="bio">GM Bruzón has been one of the strongest cuban chess players for more than a decade</p>
-        </div>
-      </div>
+      </template>
+    </div>
+    <div class="btn-more">
+     <p>LESS</p> 
+      <span>&lt;</span>
     </div>
   </section>
 </body>
