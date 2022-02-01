@@ -1,4 +1,5 @@
 .program {
+  background-image: url('./assets/backgound-events.png');
   background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
@@ -34,15 +35,16 @@
 }
 
 .activity-card img {
-  width: 30px;
+  width: 50px;
   height: auto;
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 .activity-card .title {
   width: 30%;
   font-size: 0.9rem;
   font-weight: bold;
+  margin-right: 10px;
   color: var(--secondary-color);
 }
 

@@ -2,6 +2,11 @@
 .welcome {
   margin-top: 15vh;
   margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-gray);
+  background-image: url("./assets/justQueen.png");
+  background-size: 80%;
 }
 
 .main {
@@ -32,14 +37,6 @@
   display: flex;
 }
 
-.welcome {
-  display: flex;
-  flex-direction: column;
-   background-color: var(--secondary-gray);
-  background-image: url("./assets/justQueen.png");
-  background-size: 80%;
-}
-
 .intro-text {
   background-color: var(--secondary-gray);
   color: var(--primary-color);
@@ -49,11 +46,11 @@
   line-height: 24px;
 }
 
-footer {
+.welcome footer {
   color: var(--primary-color);
-  border: 30px, 50px;
   width: 90%;
-  padding: 13px;  
+  margin: 20px 0 50px 0;
+  padding: 13px;
 }
 
 footer h2 {
@@ -65,8 +62,7 @@ footer p {
   margin: 0;
 }
 
-@media (min-width:769px) {
-  
+@media (min-width: 769px) {
   .welcome {
     width: 100vw;
     margin: 0 auto;
@@ -77,5 +73,4 @@ footer p {
     width: 80vw;
     margin: 0 auto;
   }
-  
 }
