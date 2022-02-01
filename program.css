@@ -2,6 +2,7 @@
   background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
+  margin-bottom: 70px;
 }
 
 .program h2 {

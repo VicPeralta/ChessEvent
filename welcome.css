@@ -1,10 +1,10 @@
 
 .welcome {
   margin-top: 15vh;
-  min-height: 85vh;
+  margin-bottom: 70px;
 }
 
-main {
+.main {
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,7 @@ main {
   margin-bottom: 7px;
 }
 
-main h1 {
+.event-title {
   color: var(--secondary-color);
   background-color: transparent;
   opacity: 1;
@@ -46,20 +46,19 @@ main h1 {
   padding: 10px;
   margin: 0 auto;
   border: 2px solid white;
+  line-height: 24px;
 }
 
 footer {
   color: var(--primary-color);
   border: 30px, 50px;
   width: 90%;
-  margin: 10px auto;
-  align-self: flex-end;
+  padding: 13px;  
 }
 
 footer h2 {
   color: var(--primary-color);
   font-weight: 900;
-  margin: 0;
 }
 
 footer p {

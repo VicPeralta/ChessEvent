@@ -34,20 +34,24 @@
   height: auto;
   padding: 10px;
 }
+
 .speaker-card .speaker{
   font-size: 1.3rem;
   margin-top:20px;
   margin-bottom: 5px;
 }
+
 .speaker-card .title{
   color:var(--secondary-color);
   margin: 5px 0;
 }
+
 .speaker-card hr{
   width: 20%;
   border: 1px solid var(--primary-gray);
   margin:0;
 }
+
 .speaker-card .bio {
   margin-top:10px;
   margin-right: 10px;
@@ -68,11 +72,12 @@
 
 .speakers .btn-more span {
   color: var(--secondary-color);
-  transform: rotate(90deg);
+  /* transform: rotate(90deg); */
   margin-left: 10px;
   font-weight: bold;
   font-size: .9rem;
   display: inline-block;
+  
 }
 
 @media (min-width: 769px) {

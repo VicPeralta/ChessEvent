@@ -26,6 +26,9 @@ header {
   border-bottom: white 2px solid;
 }
 
+.logo button{
+  border: none;
+}
 .hidden {
   display: none;
   z-index: 0;
@@ -33,7 +36,7 @@ header {
 
 .show {
   display: block;
-  z-index: 1;
+  z-index: 10;
 }
 
 .hamburger-button {
@@ -145,7 +148,7 @@ header .tool-bar {
   header .social ul a {
     text-decoration: none;
     color: #fff;
-    font-size: 0.5rem;
+    font-size: 0.9rem;
   }
 
   header .social ul li {
@@ -180,9 +183,10 @@ header .tool-bar {
   .tool-bar nav ul li {
     margin: 0 10px;
   }
-  .tool-bar nav ul li a {
+
+  .tool-bar nav  a {
     text-decoration: none;
-    font-size: 0.6rem;
+    font-size: 0.9rem;
     color: var(--primary-color);
   }
 
@@ -191,9 +195,9 @@ header .tool-bar {
     text-align: center;
   }
 
-  nav .btn {
+  nav ul li > .btn{
     text-decoration: none;
-    font-size: 0.6rem;
+    font-size: 0.9rem;
     color: var(--secondary-color);
     padding: 4px 10px;
     border: 3px solid var(--secondary-color);
