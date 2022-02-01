@@ -118,6 +118,8 @@ header .tool-bar {
     background-image: none;
     background-color: #fff;
     z-index: 1;
+    height: 7vw;
+    border-bottom: 2px solid var(--secondary-gray);
   }
 
   header .first {
@@ -131,7 +133,7 @@ header .tool-bar {
     justify-content: space-around;
     align-items: center;
     width: 80vw;
-    height: 7vw;
+    
     margin-left: 10%;
     padding-top: 10px;
   }

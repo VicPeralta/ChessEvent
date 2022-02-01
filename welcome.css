@@ -5,8 +5,10 @@
   display: flex;
   flex-direction: column;
   background-color: var(--secondary-gray);
-  background-image: url("./assets/justQueen.png");
-  background-size: 80%;
+  background-image: url("./assets/chessBackgroundHeader.png");
+  background-size: cover;
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
 }
 
 .main {
@@ -67,10 +69,32 @@ footer p {
     width: 100vw;
     margin: 0 auto;
     margin-top: 15vh;
+    background-image: url("./assets/chessBackgroundHeader.png");
+    background-size: cover;
+    background-blend-mode: lighten;
   }
 
   .content {
     width: 80vw;
     margin: 0 auto;
+  }
+
+  .greeting {
+    color: var(--secondary-color);
+    margin-top: 30px;
+    margin-bottom: 7px;
+    font-size: 2rem;
+  }
+  
+  .event-title {
+    color: var(--secondary-color);
+    background-color: transparent;
+    opacity: 1;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 4rem;
+    line-height: 60px;
+    font-weight: bold;
+    font-family: Cocogoose, Arial, Helvetica, sans-serif;
   }
 }
