@@ -1,0 +1,115 @@
+
+.speakers-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.speakers h2 {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.speakers hr {
+  width: 20%;
+  border: 1px solid var(--secondary-color);
+  margin: 0 auto;
+}
+
+.speaker-card {
+  display: flex;
+  margin: 20px;
+  justify-items: center;
+}
+
+.speaker-card .image {
+  background-image: url('./assets/chessBoard.png');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.speaker-card img {
+  width: 120px;
+  height: auto;
+  padding: 10px;
+}
+
+.speaker-card .info {
+  flex: 2;
+}
+
+.speaker-card .speaker {
+  font-size: 1.3rem;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.speaker-card .title {
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+  margin: 5px 0;
+}
+
+.speaker-card hr {
+  width: 20%;
+  border: 1px solid var(--primary-gray);
+  margin: 0;
+}
+
+.speaker-card .bio {
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 0.9rem;
+}
+
+.speakers .btn-more {
+  background-color: #fff;
+  border: 1px solid var(--primary-gray);
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.speakers .btn-more span {
+  color: var(--secondary-color);
+
+  /* transform: rotate(90deg); */
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+@media (min-width: 769px) {
+  .speakers-container {
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .speaker-card {
+    width: 45%;
+    display: flex;
+  }
+
+  .speakers hr {
+    width: 5%;
+  }
+
+  .speaker-card .image {
+    width: 50%;
+  }
+
+  .speakers .btn-more {
+    display: none;
+  }
+}

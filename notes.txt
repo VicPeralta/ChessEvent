@@ -1,0 +1,21 @@
+
+What is the content of my page about?
+
+The content is about a chess event to conmemorate one of the greatest player of all time.
+  José Raúl Capablanca
+
+Homepage
+  Logo
+  Greeting
+  Title
+  Description
+  Dates
+  Venue
+  Main program
+    Lectures          Lectures
+    CC Exhibition     Simul
+    Forum             Worldchampions 
+    Workshop          Tournament
+    CC Ignite         Connect
+  Feature speakers
+  Partners

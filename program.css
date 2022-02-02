@@ -1,0 +1,115 @@
+.program {
+  background-image: url('./assets/backgound-events.png');
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+
+.program h2 {
+  color: #fff;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.program hr {
+  width: 15%;
+  margin: 15px auto;
+  border: 1px solid var(--secondary-color);
+}
+
+.activity-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.activity-card {
+  display: flex;
+  width: 90%;
+  color: #fff;
+  margin: 0 auto;
+  background-color: rgba(122, 131, 150, 0.1);
+  padding: 20px 10px;
+  align-items: center;
+}
+
+.activity-card img {
+  width: 50px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.activity-card .title {
+  width: 30%;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-right: 10px;
+  color: var(--secondary-color);
+}
+
+.activity-card .description {
+  width: 70%;
+  font-size: 0.8rem;
+}
+
+.program button {
+  background-color: var(--secondary-color);
+  color: #fff;
+  width: 70%;
+  padding: 20px 30px;
+  margin: 20px auto;
+  font-weight: bold;
+}
+
+.program a {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .activity-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .activity-card {
+    flex-direction: column;
+    width: 150px;
+    height: 200px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .activity-card .title {
+    margin: 10px;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .activity-card .description {
+    width: 100%;
+    text-align: center;
+  }
+
+  .activity-card img {
+    margin: 0;
+  }
+
+  .program button {
+    display: none;
+  }
+
+  .program a {
+    display: block;
+    margin: 40px auto;
+    color: #fff;
+    font-size: 0.7rem;
+  }
+
+  .program hr {
+    width: 5%;
+    margin-bottom: 50px;
+  }
+}

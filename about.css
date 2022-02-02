@@ -1,0 +1,199 @@
+.about-event {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-gray);
+  background-image: url("./assets/justQueen.png");
+  background-size: 80%;
+  margin-bottom: 70px;
+}
+
+.about-event .greeting {
+  text-align: center;
+}
+
+.about-event .event-title {
+  text-align: center;
+}
+
+.about-event .text {
+  background-color: #fff;
+  color: var(--primary-color);
+  border: 1px solid var(--secondary-gray);
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px 5px;
+  line-height: 24px;
+}
+
+.about-event .contact {
+  margin-top: 20px;
+  text-align: center;
+  color: var(--primary-color);
+  line-height: 24px;
+}
+
+.about .email {
+  text-align: center;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.logo-info h3 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.logo-info p {
+  text-align: center;
+  margin: 15px 0;
+  line-height: 24px;
+}
+
+.logo-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-info hr {
+  width: 10%;
+  border: 1px solid var(--secondary-color);
+}
+
+.logo-info img {
+  width: 80%;
+  height: auto;
+  margin: 30px auto;
+  display: block;
+  border: 1px solid var(--secondary-gray);
+}
+
+.about footer {
+  display: flex;
+  width: 90%;
+  margin: 10px auto;
+  justify-content: center;
+}
+
+.about .img-footer {
+  width: 40%;
+}
+
+.event-card img {
+  width: 80%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+.event-card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event-card .event-year {
+  color: #fff;
+  position: absolute;
+  left: 5%;
+  top: 35%;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.event-card .event-city {
+  color: #fff;
+  position: absolute;
+  left: 5%;
+  top: 60%;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.past-events {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.past-events h3 {
+  margin: 15px auto;
+}
+
+.past-events hr {
+  width: 10%;
+  border: 1px solid var(--secondary-color);
+}
+
+.past-events p {
+  margin: 10px auto;
+  width: 90%;
+}
+
+.partners {
+  background: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 70px auto;
+}
+
+.partners h3 {
+  color: #fff;
+  font-size: larger;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.partners hr {
+  width: 10%;
+  border: 1px solid var(--secondary-color);
+}
+
+.partners img {
+  width: 80%;
+  height: auto;
+  margin: 15px auto;
+  display: block;
+}
+
+.about .img-footer img {
+  width: 90%;
+  height: auto;
+}
+
+@media (min-width: 769px) {
+  .past-events .past-event-cards {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about footer {
+    background-color: var(--primary-color);
+    padding: 20px;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .about footer p {
+    color: #fff;
+  }
+
+  .partners img {
+    width: 70%;
+  }
+
+  .about footer img {
+    content: url('./assets/logo_inverted.png');
+  }
+
+  .about-event .text {
+    width: 70%;
+  }
+}

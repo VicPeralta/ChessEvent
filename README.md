@@ -14,7 +14,7 @@
 
 
 
-[Live demo](https://vicperalta.github.io/Portfolio/)
+[Live demo](https://vicperalta.github.io/capstoneHTMLJS/)
 
 ## Built With
 
@@ -28,6 +28,9 @@
 
 - GitHub: [@VicPeralta](https://github.com/VicPeralta)
 - Twitter: [@VicPeralta](https://twitter.com/VicPeralta)
+
+## Credits
+[Original design idea by Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## Show your support
 
