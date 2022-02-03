@@ -23,7 +23,7 @@ header {
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 12vh; 
+  height: 12vh;
   background-image: url("./assets/chessBackgroundHeader.png");
   background-repeat: no-repeat;
   background-size: cover;
