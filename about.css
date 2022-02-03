@@ -95,7 +95,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
 
 .event-card .event-year {
@@ -149,6 +148,10 @@
   margin: 70px auto;
 }
 
+.partners.desktop {
+  display: none;
+}
+
 .partners h3 {
   color: #fff;
   font-size: larger;
@@ -175,6 +178,7 @@
   .partners-container {
     flex-wrap: wrap;
   }
+
   .partner-card {
     width: 30%;
   }
@@ -196,9 +200,10 @@
 
 .partner-card p {
   color: #fff;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: bold;
 }
+
 .about .img-footer img {
   width: 90%;
   height: auto;
@@ -226,20 +231,40 @@
   }
 
   .partners {
-    margin:0;
+    margin: 0;
     padding-top: 20px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .partners.desktop {
+    display: flex;
+  }
+
+  .partners > footer {
+    display: flex;
+    width: 100%;
+    margin: 30px auto;
+    margin-bottom: 0;
+    justify-content: center;
+    background-color: #fff;
+    align-items: center;
+    align-self: flex-end;
   }
 
   .partners img {
     width: 70%;
   }
 
-  .about footer {
-    margin: 0;
+  .partners > footer img {
+    width: 70%;
+    height: auto;
   }
 
   .about footer img {
-    content: url('./assets/logo_inverted.png');
+    content: url("./assets/logo_inverted.png");
     width: 70%;
     height: auto;
   }
