@@ -64,7 +64,7 @@ header {
   top: 0;
   left: 0;
   min-height: 100vh;
-  min-width: 100vw;
+  min-width: 100%;
 }
 
 .menu-options ul {
@@ -123,11 +123,12 @@ header .tool-bar {
     height: auto;
     border-bottom: 2px solid var(--secondary-gray);
     display: block;
+    width: 100%;
   }
 
   header .first {
     display: block;
-    width: 100vw;
+    width: 100%;
     background-color: var(--primary-color);
   }
 

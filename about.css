@@ -178,7 +178,7 @@
     background-color: var(--primary-color);
     padding: 20px;
     align-items: center;
-    width: 100vw;
+    width: 100%;
   }
 
   .about footer p {
