@@ -1,7 +1,5 @@
-
 .welcome {
   margin-top: 12vh;
-  margin-bottom: 70px;
   display: flex;
   flex-direction: column;
   background-color: var(--secondary-gray);
@@ -67,7 +65,7 @@ footer p {
 @media (min-width: 769px) {
   .welcome {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0 auto;
     margin-top: 10vh;
     background-image: url("./assets/chessBackgroundHeader.png");

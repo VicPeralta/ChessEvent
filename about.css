@@ -45,6 +45,7 @@
 
 .logo-info p {
   text-align: center;
+  width: 90%;
   margin: 15px 0;
   line-height: 24px;
 }
@@ -73,7 +74,7 @@
 .about footer {
   display: flex;
   width: 90%;
-  margin: 10px auto;
+  margin: 30px auto;
   justify-content: center;
 }
 
@@ -101,7 +102,7 @@
   color: #fff;
   position: absolute;
   left: 5%;
-  top: 45%;
+  top: 35%;
   font-size: xx-large;
   font-weight: bold;
 }
@@ -161,13 +162,43 @@
   background-color: var(--secondary-color);
 }
 
-.partners img {
-  width: 80%;
+.partners-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  align-content: center;
+  width: 90%;
+  margin: 10px auto;
+}
+
+@media (max-width: 400px) {
+  .partners-container {
+    flex-wrap: wrap;
+  }
+  .partner-card {
+    width: 30%;
+  }
+}
+
+.partner-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.partner-card img {
+  width: 40%;
   height: auto;
-  margin: 15px auto;
+  margin: 10px auto;
   display: block;
 }
 
+.partner-card p {
+  color: #fff;
+  font-size: .9rem;
+  font-weight: bold;
+}
 .about .img-footer img {
   width: 90%;
   height: auto;
@@ -177,6 +208,10 @@
   .past-events .past-event-cards {
     display: flex;
     flex-direction: row;
+  }
+
+  .partners-container {
+    justify-content: center;
   }
 
   .about footer {
@@ -190,12 +225,23 @@
     color: #fff;
   }
 
+  .partners {
+    margin:0;
+    padding-top: 20px;
+  }
+
   .partners img {
     width: 70%;
   }
 
+  .about footer {
+    margin: 0;
+  }
+
   .about footer img {
     content: url('./assets/logo_inverted.png');
+    width: 70%;
+    height: auto;
   }
 
   .about-event .text {
