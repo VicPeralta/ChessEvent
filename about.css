@@ -59,6 +59,7 @@
 .logo-info hr {
   width: 10%;
   border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .logo-info img {
@@ -85,6 +86,7 @@
   height: auto;
   margin: 20px auto;
   display: block;
+  filter: contrast(20%);
 }
 
 .event-card {
@@ -92,13 +94,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .event-card .event-year {
   color: #fff;
   position: absolute;
   left: 5%;
-  top: 35%;
+  top: 45%;
   font-size: xx-large;
   font-weight: bold;
 }
@@ -107,7 +110,7 @@
   color: #fff;
   position: absolute;
   left: 5%;
-  top: 60%;
+  top: 56%;
   font-size: 1.1rem;
   font-weight: bold;
 }
@@ -128,6 +131,7 @@
 .past-events hr {
   width: 10%;
   border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .past-events p {
@@ -154,6 +158,7 @@
 .partners hr {
   width: 10%;
   border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .partners img {

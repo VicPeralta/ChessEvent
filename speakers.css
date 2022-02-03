@@ -12,6 +12,7 @@
 .speakers hr {
   width: 20%;
   border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color);
   margin: 0 auto;
 }
 
@@ -56,6 +57,7 @@
 .speaker-card hr {
   width: 20%;
   border: 1px solid var(--primary-gray);
+  background-color: var(--primary-gray);
   margin: 0;
 }
 
