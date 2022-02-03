@@ -23,13 +23,15 @@ header {
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 15vh;
+  height: 12vh; 
   background-image: url("./assets/chessBackgroundHeader.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--primary-gray);
   border-bottom: white 2px solid;
   z-index: 2;
+  display: flex;
+  align-items: center;
 }
 
 .logo button {
@@ -118,8 +120,9 @@ header .tool-bar {
     background-image: none;
     background-color: #fff;
     z-index: 1;
-    height: 7vw;
+    height: auto;
     border-bottom: 2px solid var(--secondary-gray);
+    display: block;
   }
 
   header .first {

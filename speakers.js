@@ -1,3 +1,4 @@
+// Array of speaker object to be used for speakers section
 const speakersInfo = [
   {
     name: 'Lázaro Bruzón', img: './assets/bruzon.jfif', title: 'GM 2,610ELO', bio: 'GM Bruzón has been one of the strongest cuban chess players for more than a decade',
@@ -19,10 +20,13 @@ const speakersInfo = [
   },
 ];
 
+// Create speaker cards and populates speaker section
 function fillSpeakerSection(speakers) {
   const dataUserTemplate = document.querySelector('.speaker-template');
   const speakersContainer = document.querySelector('.speakers-container');
   speakers.forEach((speaker) => {
+    // Safe to clone as it does not contain any id attribute
+    // speaker-card is the only child of the document fragment
     const speakerCard = dataUserTemplate.content.cloneNode(true).children[0];
     speakerCard.querySelector('.speaker-card img').setAttribute('src', speaker.img);
     speakerCard.querySelector('.info .speaker').textContent = speaker.name;
@@ -32,6 +36,7 @@ function fillSpeakerSection(speakers) {
   });
 }
 
+// Show all speaker cards
 function showMoreSpeakers() {
   const cards = document.querySelectorAll('.speaker-card');
   cards.forEach((card) => {
@@ -39,6 +44,7 @@ function showMoreSpeakers() {
   });
 }
 
+// Show only the first two cards
 function showLessSpeakers() {
   const cards = document.querySelectorAll('.speaker-card');
   let counter = 1;
@@ -49,6 +55,7 @@ function showLessSpeakers() {
   });
 }
 
+// Button more or less functionality
 document.querySelector('.speakers .btn-more').addEventListener('click', () => {
   const btn = document.querySelector('.speakers .btn-more');
   if (btn.children[0].textContent === 'MORE') {
@@ -62,6 +69,7 @@ document.querySelector('.speakers .btn-more').addEventListener('click', () => {
   }
 });
 
+// Needed when the user resize the browser and there are speaker cards hidden
 window.addEventListener('resize', (e) => {
   if (e.currentTarget.innerWidth > 768) {
     const cards = document.querySelectorAll('.speaker-card');

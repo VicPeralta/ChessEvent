@@ -1,6 +1,6 @@
 
 .welcome {
-  margin-top: 15vh;
+  margin-top: 12vh;
   margin-bottom: 70px;
   display: flex;
   flex-direction: column;
@@ -68,7 +68,7 @@ footer p {
   .welcome {
     width: 100vw;
     margin: 0 auto;
-    margin-top: 15vh;
+    margin-top: 10vh;
     background-image: url("./assets/chessBackgroundHeader.png");
     background-size: cover;
     background-blend-mode: lighten;
