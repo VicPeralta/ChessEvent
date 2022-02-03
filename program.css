@@ -16,6 +16,7 @@
   width: 15%;
   margin: 15px auto;
   border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .activity-container {
@@ -111,5 +112,7 @@
   .program hr {
     width: 5%;
     margin-bottom: 50px;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--secondary-color);
   }
 }

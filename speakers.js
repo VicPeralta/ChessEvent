@@ -4,10 +4,10 @@ const speakersInfo = [
     name: 'Lázaro Bruzón', img: './assets/bruzon.jfif', title: 'GM 2,610ELO', bio: 'GM Bruzón has been one of the strongest cuban chess players for more than a decade',
   },
   {
-    name: 'Ding Liren', img: './assets/ding.jfif', title: 'GM 2,799ELO', bio: 'GM Liren is the top player form China, currently # in the world',
+    name: 'Ding Liren', img: './assets/ding.jfif', title: 'GM 2,799ELO', bio: 'GM Liren is the top player form China, currently #5 in the world',
   },
   {
-    name: 'Ian Nepomniachtchi', img: './assets/ian.jfif', title: 'GM 2,773LO', bio: 'GM Nepomniachtchi is former world champions challenger and currently #5 in the world',
+    name: 'Ian Nepomniachtchi', img: './assets/ian.jfif', title: 'GM 2,773LO', bio: 'GM Nepomniachtchi is former world champion challenger and currently #5 in the world',
   },
   {
     name: 'Vasily Ivanchuk', img: './assets/ivanchuk.jfif', title: 'GM 2,678ELO', bio: 'GM Ivanchuk has been world class player for more than 20 years ',
@@ -16,7 +16,7 @@ const speakersInfo = [
     name: 'Hou Yifan', img: './assets/hou.jfif', title: 'WGM 2,658 ELO', bio: 'WGM Hou from China is the world #1 woman. Mutiple world champion',
   },
   {
-    name: 'Alireza Firouzja', img: './assets/firo.jfif', title: 'GM 2,804ELO', bio: 'GM Firouzja is the top junior player and currently number 2 in the ELO rating',
+    name: 'Alireza Firouzja', img: './assets/firo.jfif', title: 'GM 2,804ELO', bio: 'GM Firouzja is the top junior player and currently # 2 in the ELO rating',
   },
 ];
 
