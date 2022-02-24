@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone project
+# Chess event project
 
-> HTML/CSS/Javascript Capstone
+
 ## Mobile
 <img src="./mobile-phone.png" width="50%" height="auto"/>
 
