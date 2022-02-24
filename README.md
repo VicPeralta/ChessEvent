@@ -14,7 +14,7 @@
 
 
 
-[Live demo](https://vicperalta.github.io/capstoneHTMLJS/)
+[Live demo](https://vicperalta.github.io/ChessEvent/)
 
 ## Built With
 
