@@ -2,19 +2,12 @@
 
 # Capstone project
 
-> HTML/CSS/Javascript Capstone
-## Mobile
-<img src="./mobile-phone.png" width="50%" height="auto"/>
+> Site for a Chess event in the Memorial of one of the greatest chess players in history. Build with CSS, HTML & JS 
 
-## Tablet
-<img src="./tablet.png" width="70%" height="auto"/>
-
-## Widescreen
-<img src="./widescreen.png" width="100%" height="auto"/>
+<img src="./chess.png" />
 
 
-
-[Live demo](https://vicperalta.github.io/capstoneHTMLJS/)
+[Live demo](https://vicperalta.github.io/ChessEvent/)
 
 ## Built With
 

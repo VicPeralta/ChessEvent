@@ -1,270 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="title" property="og:title" content="Capablanca Memorial" />
+    <meta property="og:type" content="Website" />
+    <meta
+      name="image"
+      property="og:image"
+      content="https://live.staticflickr.com/65535/51988685396_8a31988c8d_z.jpg"
+    />
+    <meta
+      name="description"
+      property="og:description"
+      content="Site for a Chess event in the Memorial of one of the greatest chess players in history. Build with CSS, HTML & JS"
+    />
+    <meta name="author" content="Victor Peralta" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./program.css" />
+    <link rel="stylesheet" href="./speakers.css" />
+    <link rel="stylesheet" href="./welcome.css" />
+    <link rel="stylesheet" href="./about.css" />
+    <script src="./menu.js" defer></script>
+    <script src="./speakers.js" defer></script>
+    <title>Capablanca's Memorial</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Capablanca Memorial, chess">
-  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./styles.css">
-  <link rel="stylesheet" href="./program.css">
-  <link rel="stylesheet" href="./speakers.css">
-  <link rel="stylesheet" href="./welcome.css">
-  <link rel="stylesheet" href="./about.css">
-  <script src="./menu.js" defer></script>
-  <script src="./speakers.js" defer></script>
-  <title>Capablanca's Memorial</title>
-</head>
-
-<body>
-
-  <header>
-    <div class="first">
-      <div class="social">
-        <ul>
-          <li><a href=""><img src="./assets/github.png" alt="" width="18" height="20"></a></li>
-          <li><a href=""><img src="./assets/twitter.png" alt="" width="20" height="20"></a></li>
-          <li><a href="">English</a></li>
-          <li><a href="">My Page</a></li>
-          <li><a href="">Logout</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="tool-bar">
-      <div class="logo">
-        <a href="#home">
-          <img src="./assets/logo.png" alt="" width="107" height="40">
-        </a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="">Program</a></li>
-          <li><a href="">Join</a></li>
-          <li><a href="">Sponsor</a></li>
-          <li><a href="">News</a></li>
-          <li><a href="" class="btn">Chess Club</a></li>
-        </ul>
-      </nav>
-    </div>
-    <button type="button" class="hamburger-button">&#8801;</button>
-    <div class="menu-options hidden">
-      <button type="button" class="close-menu">X</button>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="">Program</a></li>
-          <li><a href="">Join</a></li>
-          <li><a href="">Sponsor</a></li>
-          <li><a href="">News</a></li>
-        </ul>
-        <a href="" class="btn">Chess Club</a>
-      </nav>
-    </div>
-  </header>
-  <section class="welcome" id="home">
-    <div class="content">
-      <div class='main'>
-        <p class="greeting">"Hello! Chess world"</p>
-        <h1 class="event-title">CAPABLANCA<br>MEMORIAL FAIR <br> 2022</h1>
-        <div class="intro-text">
-          <p>Remembering the great Cuban and III World Chess Champion with an unprecedented event, two days of talks
-            about
-            his best chess games, including his two world championship matches. <br>Simultaneos exhibitions by world
-            top-class players, including the one and only World Chess Champion Magnus Carlsen</p>
+  <body>
+    <header>
+      <div class="first">
+        <div class="social">
+          <ul>
+            <li>
+              <a href=""
+                ><img src="./assets/github.png" alt="" width="18" height="20"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./assets/twitter.png" alt="" width="20" height="20"
+              /></a>
+            </li>
+            <li><a href="">English</a></li>
+            <li><a href="">My Page</a></li>
+            <li><a href="">Logout</a></li>
+          </ul>
         </div>
       </div>
-      <footer>
-        <h2>2022.02.26(SAT) ~ 27(SUN)</h2>
-        <p>@Manhatan Chess Club, NY</p>
-      </footer>
-    </div>
-  </section>
-  <section class="program">
-    <h2>Main Program</h2>
-    <hr>
-    <div class="activity-container">
-      <div class="activity-card">
-        <img src="./assets/lecture.png" alt="">
-        <p class="title">Lecture</p>
-        <p class="description">Listen the amazing stories about Capablanca's career</p>
+      <div class="tool-bar">
+        <div class="logo">
+          <a href="#home">
+            <img src="./assets/logo.png" alt="" width="107" height="40" />
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="">Program</a></li>
+            <li><a href="">Join</a></li>
+            <li><a href="">Sponsor</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="" class="btn">Chess Club</a></li>
+          </ul>
+        </nav>
       </div>
-      <div class="activity-card">
-        <img src="./assets/exhibition.png" alt="">
-        <p class="title">Exhibition</p>
-        <p class="description">Try yourself agains a GM during the simul exhibitions</p>
+      <button type="button" class="hamburger-button">&#8801;</button>
+      <div class="menu-options hidden">
+        <button type="button" class="close-menu">X</button>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="">Program</a></li>
+            <li><a href="">Join</a></li>
+            <li><a href="">Sponsor</a></li>
+            <li><a href="">News</a></li>
+          </ul>
+          <a href="" class="btn">Chess Club</a>
+        </nav>
       </div>
-      <div class="activity-card">
-        <img src="./assets/forum.png" alt="">
-        <p class="title">Forum</p>
-        <p class="description">Let your voice been heard! Talk about your experiences</p>
-      </div>
-      <div class="activity-card">
-        <img src="./assets/workshop.png" alt="">
-        <p class="title">Workshop</p>
-        <p class="description">Practice while analizing Capablanca's games</p>
-      </div>
-      <div class="activity-card">
-        <img src="./assets/connect.png" alt="">
-        <p class="title">Lecture</p>
-        <p class="description">Connect with people around the world</p>
-      </div>
-    </div>
-    <button type="button">Join Capablanca Memorial</button>
-    <a href="">SEE THE WHOLE PROGRAM</a>
-  </section>
-  <section class="speakers">
-    <h2>Featured Speakers</h2>
-    <hr>
-    <div class="speakers-container">
-      <template class="speaker-template">
-        <div class="speaker-card">
-          <div class="image">
-            <img src="" alt="">
-          </div>
-          <div class="info">
-            <h3 class="speaker"></h3>
-            <p class="title"></p>
-            <hr>
-            <p class="bio"></p>
+    </header>
+    <section class="welcome" id="home">
+      <div class="content">
+        <div class="main">
+          <p class="greeting">"Hello! Chess world"</p>
+          <h1 class="event-title">
+            CAPABLANCA<br />MEMORIAL FAIR <br />
+            2022
+          </h1>
+          <div class="intro-text">
+            <p>
+              Remembering the great Cuban and III World Chess Champion with an
+              unprecedented event, two days of talks about his best chess games,
+              including his two world championship matches. <br />Simultaneos
+              exhibitions by world top-class players, including the one and only
+              World Chess Champion Magnus Carlsen
+            </p>
           </div>
         </div>
-      </template>
-    </div>
-    <div class="btn-more">
-      <p>LESS</p>
-      <span>^</span>
-    </div>
-  </section>
-  <section class="partners desktop">
-    <h3>Partner</h3>
-    <hr>
-    <div class="partners-container">
-      <div class="partner-card">
-        <div>
-          <img src="./assets/whiteKing.png" alt="Partners images" width="300" height="50">
+        <footer>
+          <h2>2022.02.26(SAT) ~ 27(SUN)</h2>
+          <p>@Manhatan Chess Club, NY</p>
+        </footer>
+      </div>
+    </section>
+    <section class="program">
+      <h2>Main Program</h2>
+      <hr />
+      <div class="activity-container">
+        <div class="activity-card">
+          <img src="./assets/lecture.png" alt="" />
+          <p class="title">Lecture</p>
+          <p class="description">
+            Listen the amazing stories about Capablanca's career
+          </p>
         </div>
-        <p>Chessbase</p>
-      </div>
-      <div class="partner-card">
-        <div>
-          <img src="./assets/whiteQueen.png" alt="Partners images" width="300" height="50">
+        <div class="activity-card">
+          <img src="./assets/exhibition.png" alt="" />
+          <p class="title">Exhibition</p>
+          <p class="description">
+            Try yourself agains a GM during the simul exhibitions
+          </p>
         </div>
-        <p>Chess.com</p>
-      </div>
-      <div class="partner-card">
-        <div>
-          <img src="./assets/whiteKnight.png" alt="Partners images" width="300" height="50">
+        <div class="activity-card">
+          <img src="./assets/forum.png" alt="" />
+          <p class="title">Forum</p>
+          <p class="description">
+            Let your voice been heard! Talk about your experiences
+          </p>
         </div>
-        <p>Lichess</p>
-      </div>
-      <div class="partner-card">
-        <div>
-          <img src="./assets/whiteBishop.png" alt="Partners images" width="300" height="50">
+        <div class="activity-card">
+          <img src="./assets/workshop.png" alt="" />
+          <p class="title">Workshop</p>
+          <p class="description">Practice while analizing Capablanca's games</p>
         </div>
-        <p>Chess24</p>
-      </div>
-      <div class="partner-card">
-        <div>
-          <img src="./assets/whiteRook.png" alt="Partners images" width="300" height="50">
-        </div>
-        <p>Playchess</p>
-      </div>
-    </div>
-    <footer>
-      <div class="img-footer">
-        <img src="./assets/logo.png" alt="Capablanca event logo" width="100" height="40">
-      </div>
-      <p>2022 Manhatan Chess Club. <br>Some Rights Reserved.</p>
-    </footer>
-  </section>
-  <section class="about" id="about">
-    <div class="about-event">
-      <p class="greeting">"Hello! Chess world"</p>
-      <h2 class="event-title">CAPABLANCA<br>MEMORIAL FAIR 2022</h2>
-      <div class="text">
-        <p>Capablanca's Memorial remembers one of the greatest talented players of all time, in a joyful celebration
-          filled with chess events like Simultaneous exhibitions, talks about the fascinating chess life of the great
-          Cuban, his rivalries, best games, and much more. This year makes no exception and an array of speakers and
-          activities assemble a great event. </p>
-      </div>
-      <p class="contact">Please contact us per Email for any further questions about Capablanca's memorial 2022!</p>
-      <p class="email">capablanca2022@manhatanchess.org</p>
-    </div>
-    <div class="logo-info">
-      <h3>Capablanca's Memorial 2022 Logo</h3>
-      <hr>
-      <p>The logo of the Capablanca's Memorial of this year was designed by Victor Peralta
-        victor.peralta.gomez@gmail.com
-      </p>
-      <div>
-        <img src="./assets/logo.png" alt="Event's logo" width="300" height="100">
-      </div>
-
-    </div>
-    <hr>
-    <div class="past-events">
-      <h3>See the past Capablanca's Memorials</h3>
-      <hr>
-      <p>Take a look at the last two events which took place in Habana Cuba and Mexico City</p>
-      <div class="past-event-cards">
-        <div class="event-card overlay">
-          <img src="./assets/event2020.jpg" alt="Image from event in Habana" width="300" height="200">
-          <p class="event-year">2020</p>
-          <p class="event-city">Capablanca's Memorial in Habana</p>
-        </div>
-        <div class="event-card">
-          <img src="./assets/event2021.jpg" alt="Image from event in Mexico" width="300" height="200">
-          <p class="event-year">2021</p>
-          <p class="event-city">Capablanca's Memorial in Mexico</p>
+        <div class="activity-card">
+          <img src="./assets/connect.png" alt="" />
+          <p class="title">Lecture</p>
+          <p class="description">Connect with people around the world</p>
         </div>
       </div>
-    </div>
-    <div class="partners mobile">
+      <button type="button">Join Capablanca Memorial</button>
+      <a href="">SEE THE WHOLE PROGRAM</a>
+    </section>
+    <section class="speakers">
+      <h2>Featured Speakers</h2>
+      <hr />
+      <div class="speakers-container">
+        <template class="speaker-template">
+          <div class="speaker-card">
+            <div class="image">
+              <img src="" alt="" />
+            </div>
+            <div class="info">
+              <h3 class="speaker"></h3>
+              <p class="title"></p>
+              <hr />
+              <p class="bio"></p>
+            </div>
+          </div>
+        </template>
+      </div>
+      <div class="btn-more">
+        <p>LESS</p>
+        <span>^</span>
+      </div>
+    </section>
+    <section class="partners desktop">
       <h3>Partner</h3>
-      <hr>
+      <hr />
       <div class="partners-container">
         <div class="partner-card">
           <div>
-            <img src="./assets/whiteKing.png" alt="Partners images" width="300" height="50">
+            <img
+              src="./assets/whiteKing.png"
+              alt="Partners images"
+              width="300"
+              height="50"
+            />
           </div>
           <p>Chessbase</p>
         </div>
         <div class="partner-card">
           <div>
-            <img src="./assets/whiteQueen.png" alt="Partners images" width="300" height="50">
+            <img
+              src="./assets/whiteQueen.png"
+              alt="Partners images"
+              width="300"
+              height="50"
+            />
           </div>
           <p>Chess.com</p>
         </div>
         <div class="partner-card">
           <div>
-            <img src="./assets/whiteKnight.png" alt="Partners images" width="300" height="50">
+            <img
+              src="./assets/whiteKnight.png"
+              alt="Partners images"
+              width="300"
+              height="50"
+            />
           </div>
           <p>Lichess</p>
         </div>
         <div class="partner-card">
           <div>
-            <img src="./assets/whiteBishop.png" alt="Partners images" width="300" height="50">
+            <img
+              src="./assets/whiteBishop.png"
+              alt="Partners images"
+              width="300"
+              height="50"
+            />
           </div>
           <p>Chess24</p>
         </div>
         <div class="partner-card">
           <div>
-            <img src="./assets/whiteRook.png" alt="Partners images" width="300" height="50">
+            <img
+              src="./assets/whiteRook.png"
+              alt="Partners images"
+              width="300"
+              height="50"
+            />
           </div>
           <p>Playchess</p>
         </div>
       </div>
-    </div>
-    <footer>
-      <div class="img-footer">
-        <img src="./assets/logo.png" alt="Capablanca event logo" width="100" height="40">
+      <footer>
+        <div class="img-footer">
+          <img
+            src="./assets/logo.png"
+            alt="Capablanca event logo"
+            width="100"
+            height="40"
+          />
+        </div>
+        <p>2022 Manhatan Chess Club. <br />Some Rights Reserved.</p>
+      </footer>
+    </section>
+    <section class="about" id="about">
+      <div class="about-event">
+        <p class="greeting">"Hello! Chess world"</p>
+        <h2 class="event-title">CAPABLANCA<br />MEMORIAL FAIR 2022</h2>
+        <div class="text">
+          <p>
+            Capablanca's Memorial remembers one of the greatest talented players
+            of all time, in a joyful celebration filled with chess events like
+            Simultaneous exhibitions, talks about the fascinating chess life of
+            the great Cuban, his rivalries, best games, and much more. This year
+            makes no exception and an array of speakers and activities assemble
+            a great event.
+          </p>
+        </div>
+        <p class="contact">
+          Please contact us per Email for any further questions about
+          Capablanca's memorial 2022!
+        </p>
+        <p class="email">capablanca2022@manhatanchess.org</p>
       </div>
-      <p>2022 Manhatan Chess Club. <br>Some Rights Reserved.</p>
-    </footer>
-  </section>
-</body>
-
+      <div class="logo-info">
+        <h3>Capablanca's Memorial 2022 Logo</h3>
+        <hr />
+        <p>
+          The logo of the Capablanca's Memorial of this year was designed by
+          Victor Peralta victor.peralta.gomez@gmail.com
+        </p>
+        <div>
+          <img
+            src="./assets/logo.png"
+            alt="Event's logo"
+            width="300"
+            height="100"
+          />
+        </div>
+      </div>
+      <hr />
+      <div class="past-events">
+        <h3>See the past Capablanca's Memorials</h3>
+        <hr />
+        <p>
+          Take a look at the last two events which took place in Habana Cuba and
+          Mexico City
+        </p>
+        <div class="past-event-cards">
+          <div class="event-card overlay">
+            <img
+              src="./assets/event2020.jpg"
+              alt="Image from event in Habana"
+              width="300"
+              height="200"
+            />
+            <p class="event-year">2020</p>
+            <p class="event-city">Capablanca's Memorial in Habana</p>
+          </div>
+          <div class="event-card">
+            <img
+              src="./assets/event2021.jpg"
+              alt="Image from event in Mexico"
+              width="300"
+              height="200"
+            />
+            <p class="event-year">2021</p>
+            <p class="event-city">Capablanca's Memorial in Mexico</p>
+          </div>
+        </div>
+      </div>
+      <div class="partners mobile">
+        <h3>Partner</h3>
+        <hr />
+        <div class="partners-container">
+          <div class="partner-card">
+            <div>
+              <img
+                src="./assets/whiteKing.png"
+                alt="Partners images"
+                width="300"
+                height="50"
+              />
+            </div>
+            <p>Chessbase</p>
+          </div>
+          <div class="partner-card">
+            <div>
+              <img
+                src="./assets/whiteQueen.png"
+                alt="Partners images"
+                width="300"
+                height="50"
+              />
+            </div>
+            <p>Chess.com</p>
+          </div>
+          <div class="partner-card">
+            <div>
+              <img
+                src="./assets/whiteKnight.png"
+                alt="Partners images"
+                width="300"
+                height="50"
+              />
+            </div>
+            <p>Lichess</p>
+          </div>
+          <div class="partner-card">
+            <div>
+              <img
+                src="./assets/whiteBishop.png"
+                alt="Partners images"
+                width="300"
+                height="50"
+              />
+            </div>
+            <p>Chess24</p>
+          </div>
+          <div class="partner-card">
+            <div>
+              <img
+                src="./assets/whiteRook.png"
+                alt="Partners images"
+                width="300"
+                height="50"
+              />
+            </div>
+            <p>Playchess</p>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="img-footer">
+          <img
+            src="./assets/logo.png"
+            alt="Capablanca event logo"
+            width="100"
+            height="40"
+          />
+        </div>
+        <p>2022 Manhatan Chess Club. <br />Some Rights Reserved.</p>
+      </footer>
+    </section>
+  </body>
 </html>
