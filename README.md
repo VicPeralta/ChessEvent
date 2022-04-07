@@ -1,6 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone project
+# Chess event project
+
 
 > Site for a Chess event in the Memorial of one of the greatest chess players in history. Build with CSS, HTML & JS 
 
